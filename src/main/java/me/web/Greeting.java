@@ -1,4 +1,4 @@
-package web;
+package me.web;
 
 /**
  * Created by hua on 15/9/16.

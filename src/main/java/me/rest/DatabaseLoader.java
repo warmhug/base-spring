@@ -1,4 +1,4 @@
-package rest;
+package me.rest;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

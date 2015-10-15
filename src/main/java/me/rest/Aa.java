@@ -1,6 +1,4 @@
-package rest;
-
-import org.springframework.data.repository.CrudRepository;
+package me.rest;
 
 /**
  * Created by hua on 15/10/9.

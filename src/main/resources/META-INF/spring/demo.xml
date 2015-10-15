@@ -6,6 +6,6 @@
 
        <context:annotation-config />
 
-       <bean id="aa" class="rest.AaImpl"></bean>
+       <bean id="aa" class="me.rest.AaImpl"></bean>
 
 </beans>

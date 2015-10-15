@@ -1,4 +1,4 @@
-package rest;
+package me.rest;
 
 import org.springframework.stereotype.Component;
 
