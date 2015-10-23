@@ -25,6 +25,7 @@
 
 	<dependencies>
 		<dependency>
+			<!-- JSR330标准注解 依赖的包-->
 			<groupId>javax.inject</groupId>
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
@@ -82,7 +83,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -91,6 +92,6 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 
 </project>
