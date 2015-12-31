@@ -3,6 +3,9 @@
 
 ## spring
 
+[Spring基础知识汇总](http://www.imooc.com/article/1309)、
+[SpringMVC学习笔记](http://www.imooc.com/article/1392)
+
 [文档](http://docs.spring.io/spring-framework/docs/current/spring-framework-reference/html/index.html)
 
 In Spring, the objects that form the backbone of your application and that are managed by the Spring IoC container are called beans. A bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container. Otherwise, a bean is simply one of many objects in your application.
@@ -46,13 +49,13 @@ IoC就是Inversion of Control，控制反转还有一个名字叫做依赖注入
 
 ## Struts、Hibernate(orm框架)
 
-- Struts的目的是为了分离视图层和控制层 
-- Spring是为了让你养成用接口编程的好习惯 提高程序的重用率还有可维护性（健壮性） 
-- Hibernate的目的是为了实现用面向对象的思想来管理数据库实现与数据库之间的低耦合 
+- Struts的目的是为了分离视图层和控制层
+- Spring是为了让你养成用接口编程的好习惯 提高程序的重用率还有可维护性（健壮性）
+- Hibernate的目的是为了实现用面向对象的思想来管理数据库实现与数据库之间的低耦合
 
-- 模型层，用Hibernate框架让来JavaBean在数据库生成表及关联，通过对JavaBean的操作来对数据库进行操作； 
-- 控制层，用Struts框架来连接数据层和视图层的，接收、处理、发送数据并控制流程； 
-- 视图层，用JSP模板把页面展现给用户以及提供与用户的交互。 
+- 模型层，用Hibernate框架让来JavaBean在数据库生成表及关联，通过对JavaBean的操作来对数据库进行操作；
+- 控制层，用Struts框架来连接数据层和视图层的，接收、处理、发送数据并控制流程；
+- 视图层，用JSP模板把页面展现给用户以及提供与用户的交互。
 
 Struts2 整合 Hibernate 开发：分层思想，从上到下：表现层 → 业务逻辑层 → 持久层 → 数据库层
 
@@ -69,5 +72,3 @@ Struts2 整合 Hibernate 开发：分层思想，从上到下：表现层 → �
 - JSP的执行必须要有Servlet的运行环境，也就是需要ServletContext、HttpServletRequest、HttpServletResponse类。而渲染Velocity不需要，所以Velocity不只应用在Servlet环境中。
 
 Velocity优化实践：改变Velocity的解释执行，变为编译执行。
-
-
